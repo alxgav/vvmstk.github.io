@@ -1,0 +1,149 @@
+body {
+    min-width: 320px;
+    font-size: 14px;
+    font-family: 'Roboto', serif;
+    color: #626262;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Roboto";
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #b4ad9e
+}
+
+a:hover {
+    color: #898377
+}
+
+/*navbar*/
+.sticky-menu {
+    position: fixed;
+    top: 0;
+}
+header .nav-item {
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+header .nav-item a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #ccc;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+header .nav-item a:hover:after {
+    transform: scale(1);
+}
+
+
+/*header style*/
+.header {
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 600px;
+}
+
+/*logo*/
+
+.first {
+    font-weight: normal;
+}
+
+.second {
+    color: gray;
+    font-size: 12px;
+    display: block;
+    margin-top: -5px;
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: right;
+    margin-right: 100px;
+}
+
+/*content_title*/
+.content_title {
+    color: #000;
+    padding-top: 10%;
+}
+
+.head1 {
+    text-transform: uppercase;
+    font-size: 90px;
+    opacity: .8;
+}
+
+.head2 {
+    font-size: 1.9em;
+    /* margin-top: -5px; */
+}
+
+/*section-0*/
+.section-0 {
+    height: 50vh;
+    min-height: 150px;
+    width: 100%; 
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
